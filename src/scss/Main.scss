@@ -1,0 +1,240 @@
+/* FONTS */
+
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Thin"), url("../fonts/Heebo-Thin.ttf") format("truetype");
+	font-weight: 100;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-ExtraLight"),
+		url("../fonts/Heebo-ExtraLight.ttf") format("truetype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Light"), url("../fonts/Heebo-Light.ttf") format("truetype");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Regular"),
+		url("../fonts/Heebo-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Medium"),
+		url("../fonts/Heebo-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-SemiBold"),
+		url("../fonts/Heebo-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Bold"), url("../fonts/Heebo-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-ExtraBold"),
+		url("../fonts/Heebo-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+}
+@font-face {
+	font-family: "heebo";
+	src: local("Heebo-Black"), url("../fonts/Heebo-Black.ttf") format("truetype");
+	font-weight: 900;
+}
+
+/* VARIABLES */
+
+$blue: #489ad4;
+
+/* BREAKPOINTS */
+$extraLarge: 1024px;
+$large: 950px;
+$tablet: 768px;
+$mobileLarge: 425px;
+$mobileMedium: 375px;
+$mobileSmall: 320px;
+
+/* MAIN STYLING */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "heebo", "sans-serif";
+	font-size: 1rem;
+	font-weight: 300;
+	/* overscroll-behavior-y: none; */
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+}
+
+* {
+	font-family: "heebo", "sans-serif";
+}
+
+#mainContent {
+	width: 100%;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.pageTitle {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+
+p {
+	line-height: 1.4rem;
+}
+
+a {
+	color: $blue;
+}
+
+.ctaButton {
+	background-color: $blue;
+	padding: 0.5rem 1rem;
+	border-radius: 99999px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+	display: block;
+	width: fit-content;
+	white-space: nowrap;
+
+	&:hover {
+		background-color: #68acdc;
+	}
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+select {
+	border: none;
+	font-weight: 500;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+textarea {
+	resize: none;
+	font-family: "heebo", "sans-serif";
+	font-weight: 300;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+table {
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+table,
+th,
+td {
+	border: 1px solid rgb(240, 240, 240);
+	border-collapse: collapse;
+	text-align: left;
+}
+
+th {
+	border: 1px solid white;
+	font-size: 1.1rem;
+}
+
+thead {
+	background-color: $blue;
+	color: white;
+}
+
+tbody {
+	tr:nth-child(odd) {
+		background-color: #f4fbff;
+	}
+}
+
+td,
+th {
+	padding: 0.8rem 1rem;
+
+	a {
+		color: $blue;
+	}
+}
+
+ul {
+	list-style: none;
+	padding-left: 1rem;
+}
+li {
+	margin: 0.5rem 0;
+}
+
+ul li::before {
+	content: "\2022";
+	color: $blue;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.asterisk {
+	font-size: 0.7rem;
+	color: $blue;
+	position: relative;
+	top: -5px;
+}
+
+details {
+	p {
+		box-sizing: border-box;
+		padding: 0 20px;
+
+		&:last-child {
+			padding-bottom: 20px;
+		}
+	}
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+details[open] {
+	outline: 1px solid $blue;
+	summary {
+		border-radius: 10px 10px 0 0;
+	}
+}
+
+summary {
+	background-color: $blue;
+	color: white;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 1.1rem;
+}

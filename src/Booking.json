@@ -1,0 +1,655 @@
+[
+	{
+		"type": "kursus",
+		"name": "Basiskursus",
+		"desc": "",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/kurser/basis",
+		"bookingTimes": {
+			"reservation": true,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 4 },
+				{ "date": "21-12-2022", "time": 1, "reserved": 4 },
+				{ "date": "21-12-2022", "time": 2, "reserved": 4 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "Minikursus",
+		"desc": "",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/kurser/mini",
+		"bookingTimes": {
+			"reservation": true,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "Familiekursus",
+		"desc": "",
+		"price": {
+			"low": 3750,
+			"high": 4250
+		},
+		"link": "/kurser/familie",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "Teknikkursus",
+		"desc": "6 lektioner",
+		"price": {
+			"low": 1795,
+			"high": 1795
+		},
+		"link": "/kurser/teknik",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "Teknikkursus",
+		"desc": "9 lektioner",
+		"price": {
+			"low": 2495,
+			"high": 2495
+		},
+		"link": "/kurser/teknik",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "Firmakursus",
+		"desc": "",
+		"price": {
+			"low": 795,
+			"high": 795
+		},
+		"link": "/kurser/firma",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "DDS - Kursus",
+		"desc": "6 lektioner",
+		"price": {
+			"low": 1795,
+			"high": 1795
+		},
+		"link": "/kurser/dds",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "kursus",
+		"name": "DDS - Kursus",
+		"desc": "9 lektioner",
+		"price": {
+			"low": 2495,
+			"high": 2495
+		},
+		"link": "/kurser/dds",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Enkeltlektion",
+		"desc": "",
+		"price": {
+			"low": 375,
+			"high": 375
+		},
+		"link": "/lektioner/enkelt",
+		"bookingTimes": {
+			"reservation": true,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Personlig Lektion",
+		"desc": "",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/lektioner/personlig",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Prøvelektion",
+		"desc": "2 pers.",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/lektioner/proeve",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "3 På Båndet",
+		"desc": "",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/lektioner/3-paa-baandet",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Familielektion",
+		"desc": "",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/lektioner/familie",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Gruppelektion",
+		"desc": "1-6 pers.",
+		"price": {
+			"low": 1500,
+			"high": 1500
+		},
+		"link": "/lektioner/gruppe",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Gruppelektion",
+		"desc": "7-12 pers.",
+		"price": {
+			"low": 2500,
+			"high": 2500
+		},
+		"link": "/lektioner/gruppe",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Gruppelektion",
+		"desc": "13-24 pers.",
+		"price": {
+			"low": 4000,
+			"high": 4000
+		},
+		"link": "/lektioner/gruppe",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Snowboardlektion",
+		"desc": "",
+		"price": {
+			"low": 350,
+			"high": 350
+		},
+		"link": "/lektioner/snowboard",
+		"bookingTimes": {
+			"reservation": true,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "lektion",
+		"name": "Snowboard",
+		"desc": "Familielektion",
+		"price": {
+			"low": 750,
+			"high": 850
+		},
+		"link": "/lektioner/snowboard-familie",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "arrangement",
+		"name": "Firmaarrangement",
+		"desc": "",
+		"price": {
+			"low": 0,
+			"high": 0
+		},
+		"link": "/arrangementer/firma",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "arrangement",
+		"name": "Polterabend",
+		"desc": "",
+		"price": {
+			"low": 0,
+			"high": 0
+		},
+		"link": "/arrangementer/polterabend",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	},
+	{
+		"type": "arrangement",
+		"name": "Blå Mandag",
+		"desc": "",
+		"price": {
+			"low": 0,
+			"high": 0
+		},
+		"link": "/arrangementer/blaa-mandag",
+		"bookingTimes": {
+			"reservation": false,
+			"timesDefault": [
+				{
+					"time": "16:00 - 17:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "17:30 - 19:00",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				},
+				{
+					"time": "19:00 - 20:30",
+					"reserved": { "amount": 0, "min": 2, "max": 4 }
+				}
+			],
+			"timesBooked": [
+				{ "date": "21-12-2022", "time": 0, "reserved": 1 },
+				{ "date": "24-12-2022", "time": 2, "reserved": 2 }
+			]
+		}
+	}
+]
