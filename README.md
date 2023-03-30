@@ -2,7 +2,7 @@
 
 To view this project live:
 
-https://skiarena.delu.dk/
+https://skiarena.runelc.dk/ 
 
 
 To open this project locally:
